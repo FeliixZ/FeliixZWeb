@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>FeliixZ Website</title>
+    <link rel="icon" type="image/png" href="../data/img/favicon.png" />
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <script src="../../../socket.io/socket.io.js"></script>     <!--Needs to be the path to the app folder / socket.io.js is located in the app folder (dynamically!)-->
+	<script src="/../../lib/jquery.js"></script>
+	<script src="../js/client.js"></script>
+</head>
+<body>
+    <header>
+        <a href = "index.html">FeliixZ Website</a>
+    </header>
+    <div id = "line"></div>
+    <nav>
+        <a id = "home" href = "index.html">Home</a>
+        <a id = "downloads" href = "downloads.html">Downloads</a>
+        <a id = "info" href = "info.html">Info</a>
+        <a id = "chat" href = "chat.html">Chat</a>
+        <a id = "game" href = "game.html">Game</a>
+        <br> <br> <br> <br>
+    </nav>
+
+    <h2>Chat:</h2>
+    <p>Chat App in progress!</p>
+    <p>Chat here!:</p>
+    <br>
+
+    <div id = "main">
+        <ul id="messages"></ul>
+        <form action="chatbar">
+            <input id="m" autocomplete="off" /><button>Send</button>
+        </form>
+    </div>
+    <br> <br> <br> <br>
+
+    <footer>
+        <a href = "chat.html">©FeliixZ</a>
+    </footer>
+  </body>
+</html>
