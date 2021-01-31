@@ -1,5 +1,5 @@
 # FeliixZWeb
-My own Website!
+My own Website! Start Date: 26.12.2019
 
 # Getting Started
 You need NodeJs installed on your PC! --> https://nodejs.org/en/
@@ -28,3 +28,8 @@ For visiting the website you need to open a browser and open this link:
 ```
 http://localhost:3000/client/html/index.html
 ```
+<br>
+
+WebApp build with: HTML, CSS, JS, (...), NodeJS, Socket.io!
+<br>
+Website: [] = Currently offline!
